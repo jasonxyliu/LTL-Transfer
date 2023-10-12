@@ -1,8 +1,7 @@
 # LTL-Transfer
 
-This is the repository that contains source code for the [LTL-Transfer website](https://ltl-transfer.github.io).
+This is the repository that contains source code for the [LTL-Transfer website](https://jasonxyliu.github.io/LTL-Transfer).
 
-If you find Nerfies useful for your work please cite:
 ```
 @article{liu2022ltltransfer
   author    = {Liu, Jason Xinyu and Shah, Ankit and Rosen,Eric and George, Konidaris and Tellex, Stefanie},
