@@ -1,0 +1,57 @@
+a; brown_desk
+b: white_desk
+c: couch
+d; door
+s: bookshelf
+k: kitchen_counter
+
+env0, task0, Fa, navigation
+env0, task1, Fa & Fb, navigation
+env0, task2, Fa & Fb & Fc, navigation
+env0, task3, Fa & Fb & Fs, navigation
+env0, task4, Fa & Fb & Fk navigation
+env0, task5, Fa & Fb & Fc & Fd, navigation
+env0, task6, Fa & Fb & Fc & Fs, navigation
+env0, task7, Fa & Fb & Fc & Fk, navigation
+env0, task8, Fa & Fb & Fc & Fk & Fs, navigation
+env0, task9, F(b & F(a & F(c & Fd)))), navigation
+env0, task10, F(s & Fa), fetch and deliver
+env0, task11, F(s & Fb), fetch and deliver
+env0, task12, F(a & Fb), navigation
+env0, task13, F(b & Fa), navigation
+env0, task14, F(a & F(s & Fc)), fetch and deliver
+env0, task15, F(b & F(s & Fc)), fetch and deliver
+env0, task16, F(s & F(a & Fc)), fetch and deliver
+env0, task17, F(a & F(b & Fc)), navigation
+env0, task18, F(s & F(a & F(k & Fa)))), fetch and deliver
+env0, task19, F(a & F(b & F(c & Fd)))), navigation
+env0, task20, F(s & XFa), fetch and deliver
+env0, task21, F(b & XFs), navigation
+env0, task22, F(a & XFb), navigation
+env0, task23, F(b & XFa), navigation
+env0, task24, F(a & XF(b & XFc)), navigation
+env0, task25, F(a & XF(s & XFb)), fetch and deliver
+env0, task26, F(b & XF(s & XFa)), fetch and deliver
+env0, task27, F(s & XF(b & XFa)), fetch and deliver
+env0, task28, F(k & XFb), fetch and deliver
+env0, task29, F(k & XFa), fetch and deliver
+env0, task30, !a U s & Fa, fetch and deliver
+env0, task31, !b U a & Fb, navigation
+env0, task32, !a U b & Fa, navigation
+env0, task33, b U a & !c U b & Fc, navigation
+env0, task34, b U k & Fb, fetch and deliver
+env0, task35, !b U c & Fb, navigation
+env0, task36, !a U s & !b U a & Fb, fetch and deliver
+env0, task37, !s U a & !b U s & Fb, fetch and deliver
+env0. task38, !b U a & !s U b & Fs, navigation
+env0, task39, !a U b & !s U a & Fs, navigation
+env0, task40, Fa & F(b & Fc), navigation
+env0, task41, Fa & !c U b & Fc, navigation
+env0, task42, F(a & Fb) & !c U a & Fc, navigation
+env0, task43, Fa & F(b & XFc), navigation
+env0, task44, F(a & Fb) & !c U b & Fc, navigation
+env0, task45, F(b & Fa) & !c U b & Fc, navigation
+env0, task46, Fc & (!s U a & Fs), navigation
+env0, task47, Fc & (!a U s & Fa), navigation
+env0, task48, Fc & (!s U b & Fs), navigation
+env0, task49, Fc & (!b U s & Fb), navigation
