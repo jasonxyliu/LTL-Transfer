@@ -1,7 +1,7 @@
-a; brown_desk
+a: brown_desk
 b: white_desk
 c: couch
-d; door
+d: door
 s: bookshelf
 k: kitchen_counter
 
